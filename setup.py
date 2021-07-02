@@ -29,10 +29,10 @@ testing_requirements = [
     "mock",
     "faker",
     "trustme",
-    "black",
 ]
 
 linting_requirements = [
+    "black",
     "flake8",
     "bandit",
     "flake8-isort",
