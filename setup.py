@@ -21,7 +21,6 @@ requirements = [
 ]
 
 testing_requirements = [
-    "flask",
     "pytest",
     "pytest-cov",
     "wheel",
@@ -35,7 +34,7 @@ testing_requirements = [
 
 linting_requirements = [
     "flake8",
-    "bandit"
+    "bandit",
     "flake8-isort",
     "flake8-quotes",
 ]
@@ -52,14 +51,12 @@ setup(
     author_email="mmadlavana@gmail.com",
     url=url,
     project_urls={
-        'Documentation': 'https://dopstar.github.io/librespeed',
-        'Source': url,
-        'Tracker': '{}/issues'.format(url),
+        "Documentation": "https://dopstar.github.io/librespeed",
+        "Source": url,
+        "Tracker": "{}/issues".format(url),
     },
     download_url="{url}/archive/{version}.tar.gz".format(url=url, version=version),
-    description=(
-        "A Python client library for LibreSpeed"
-    ),
+    description=("A Python client library for LibreSpeed"),
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
